@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Page Compiler Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    >
+
+    <style>
+        body {
+            padding-top: 70px;
+            background-color: #f5f5f7;
+        }
+        .kpi-value {
+            font-size: 1.6rem;
+            font-weight: 700;
+        }
+        .kpi-label {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            color: #6c757d;
+        }
+        .status-pill {
+            border-radius: 999rem;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Shared Navbar -->
+<nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="index.html">SEO Intelligence & Compiler</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Overview</a></li>
+                <li class="nav-item"><a class="nav-link" href="seo-dashboard.html">SEO Dashboard</a></li>
+                <li class="nav-item"><a class="nav-link" href="compiler-dashboard.html">Page Compiler</a></li>
+                <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+
+    <!-- Header -->
+    <div class="row mt-3 mb-2">
+        <div class="col-md-8">
+            <h1 class="h3 mb-1">AI Web Page Compiler</h1>
+            <p class="text-muted mb-0">
+                Monitor and control the flow of SEO-optimised pages from input data to WordPress.
+            </p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-md-end align-items-start mt-3 mt-md-0">
+            <button id="newBatch" class="btn btn-primary">
+                + New Batch from CSV / Sheet
+            </button>
+        </div>
+    </div>
+
+    <!-- KPIs -->
+    <div class="row g-3 mb-3">
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <div class="kpi-label">Pages Generated (Today)</div>
+                    <div class="kpi-value" id="kpiGeneratedToday">24</div>
+                    <div class="small text-muted">Across 2 sites</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <div class="kpi-label">Awaiting Review</div>
+                    <div class="kpi-value" id="kpiReview">9</div>
+                    <div class="small text-muted">Pending human check</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <div class="kpi-label">Successfully Published</div>
+                    <div class="kpi-value" id="kpiPublished">138</div>
+                    <div class="small text-muted">Last 30 days</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <div class="kpi-label">Error Rate</div>
+                    <div class="kpi-value" id="kpiErrorRate">3.2%</div>
+                    <div class="small text-muted">API / validation failures</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Input & pipeline overview -->
+    <div class="row g-3 mb-3">
+        <div class="col-lg-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-header small text-muted">
+                    Input Source (example)
+                </div>
+                <div class="card-body">
+                    <p class="small text-muted mb-2">Preview of structured input (CSV / sheet):</p>
+                    <div class="table-responsive">
+                        <table class="table table-sm table-bordered mb-2">
+                            <thead>
+                            <tr>
+                                <th>Product / Topic</th>
+                                <th>Target Keyword</th>
+                                <th>Intent</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Warehouse floor tiles</td>
+                                <td>warehouse floor tiles uk</td>
+                                <td>Commercial / B2B</td>
+                            </tr>
+                            <tr>
+                                <td>Commercial kitchen flooring</td>
+                                <td>commercial kitchen floor tiles</td>
+                                <td>Commercial / B2B</td>
+                            </tr>
+                            <tr>
+                                <td>Anti-slip factory tiles</td>
+                                <td>non slip factory flooring</td>
+                                <td>Industrial</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="small text-muted mb-0">
+                        In the live system, this would pull directly from your sheet / DB via n8n.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-8">
+            <div class="card shadow-sm h-100">
+                <div class="card-header small text-muted">
+                    Pipeline Status
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <h6 class="mb-1">1. AI Content Generation</h6>
+                            <p class="small text-muted mb-2">
+                                Generates titles, meta descriptions, H1–H3 and body copy from structured input.
+                            </p>
+                            <div class="progress mb-2" style="height: 6px;">
+                                <div class="progress-bar" role="progressbar" style="width: 72%;"></div>
+                            </div>
+                            <p class="small mb-0 text-muted">18 of 25 pages processed</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="mb-1">2. SEO Checks</h6>
+                            <p class="small text-muted mb-2">
+                                Validates keyword usage, length, internal links and basic metadata.
+                            </p>
+                            <div class="progress mb-2" style="height: 6px;">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 58%;"></div>
+                            </div>
+                            <p class="small mb-0 text-muted">15 of 26 pages passed initial checks</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="mb-1">3. WordPress Publishing</h6>
+                            <p class="small text-muted mb-2">
+                                Sends approved content to WordPress via REST API (draft or publish).
+                            </p>
+                            <div class="progress mb-2" style="height: 6px;">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 41%;"></div>
+                            </div>
+                            <p class="small mb-0 text-muted">11 of 27 pages created in WordPress</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="d-flex flex-wrap gap-2">
+              <span class="badge bg-light text-muted border status-pill">
+                <strong>Environment:</strong> Staging
+              </span>
+                        <span class="badge bg-light text-muted border status-pill">
+                <strong>WordPress Site:</strong> tileplan.co.uk
+              </span>
+                        <span class="badge bg-light text-muted border status-pill">
+                <strong>Mode:</strong> Draft first, then publish
+              </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jobs / pages table -->
+    <div class="row g-3 mb-4">
+        <div class="col-12">
+            <div class="card shadow-sm">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <span class="small text-muted">Pages in current batch</span>
+                    <div class="d-flex gap-2 align-items-center">
+                        <select id="filterStatus" class="form-select form-select-sm">
+                            <option value="all">All statuses</option>
+                            <option value="pending">Pending</option>
+                            <option value="review">Awaiting Review</option>
+                            <option value="published">Published</option>
+                            <option value="error">Error</option>
+                        </select>
+                        <input type="search" id="pageSearch" class="form-control form-control-sm"
+                               placeholder="Search by title / keyword">
+                    </div>
+                </div>
+                <div class="card-body p-0">
+                    <div class="table-responsive">
+                        <table class="table table-sm mb-0 align-middle" id="pagesTable">
+                            <thead class="table-light">
+                            <tr>
+                                <th>Page Title</th>
+                                <th>Target Keyword</th>
+                                <th>Status</th>
+                                <th>WordPress URL</th>
+                                <th>Last Updated</th>
+                                <th>Actions</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr data-status="published">
+                                <td>Warehouse Floor Tiles UK</td>
+                                <td>warehouse floor tiles uk</td>
+                                <td>
+                                    <span class="badge bg-success status-pill">Published</span>
+                                </td>
+                                <td>
+                                    <a href="#" class="small text-decoration-none">
+                                        /warehouse-floor-tiles-uk/
+                                    </a>
+                                </td>
+                                <td class="small text-muted">2025-02-10 14:32</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-secondary">View</button>
+                                </td>
+                            </tr>
+                            <tr data-status="review">
+                                <td>Commercial Kitchen Floor Tiles</td>
+                                <td>commercial kitchen floor tiles</td>
+                                <td>
+                                    <span class="badge bg-warning text-dark status-pill">Awaiting Review</span>
+                                </td>
+                                <td>
+                                    <span class="small text-muted">Not yet created</span>
+                                </td>
+                                <td class="small text-muted">2025-02-10 14:21</td>
+                                <td>
+                                    <button class="btn btn-sm btn-primary">Open for Review</button>
+                                </td>
+                            </tr>
+                            <tr data-status="pending">
+                                <td>Non Slip Factory Flooring</td>
+                                <td>non slip factory flooring</td>
+                                <td>
+                                    <span class="badge bg-secondary status-pill">Pending</span>
+                                </td>
+                                <td>
+                                    <span class="small text-muted">Not yet created</span>
+                                </td>
+                                <td class="small text-muted">2025-02-10 14:18</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-primary">Prioritise</button>
+                                </td>
+                            </tr>
+                            <tr data-status="error">
+                                <td>Industrial Floor Tiles</td>
+                                <td>industrial flooring tiles</td>
+                                <td>
+                                    <span class="badge bg-danger status-pill">Error</span>
+                                </td>
+                                <td>
+                                    <span class="small text-muted">WordPress failed</span>
+                                </td>
+                                <td class="small text-muted">2025-02-10 14:10</td>
+                                <td>
+                                    <button class="btn btn-sm btn-outline-danger">View Error</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card-footer text-end small text-muted">
+                    Connect this table to your n8n workflows / database to show real-time job status.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div><!-- /container-fluid -->
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // "Create new batch" demo action
+    document.getElementById('newBatch').addEventListener('click', () => {
+        alert('In the real app, this would open a modal / upload form for your CSV or sheet.');
+    });
+
+    // Filter by status
+    const statusSelect = document.getElementById('filterStatus');
+    const searchInput = document.getElementById('pageSearch');
+    const rows = Array.from(document.querySelectorAll('#pagesTable tbody tr'));
+
+    function applyPageFilters() {
+        const status = statusSelect.value;
+        const query = searchInput.value.toLowerCase();
+
+        rows.forEach(row => {
+            const rowStatus = row.getAttribute('data-status');
+            const text = row.innerText.toLowerCase();
+
+            const statusMatch = status === 'all' || rowStatus === status;
+            const textMatch = text.includes(query);
+
+            row.style.display = statusMatch && textMatch ? '' : 'none';
+        });
+    }
+
+    statusSelect.addEventListener('change', applyPageFilters);
+    searchInput.addEventListener('input', applyPageFilters);
+</script>
+</body>
+</html>
