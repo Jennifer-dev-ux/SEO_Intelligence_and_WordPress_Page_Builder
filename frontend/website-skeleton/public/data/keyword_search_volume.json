@@ -1,0 +1,2783 @@
+{
+  "id": "12091453-1261-0367-0000-b4ccbf3c7deb",
+  "status_code": 20000,
+  "status_message": "Ok.",
+  "time": "3.1860 sec.",
+  "cost": 0.075,
+  "result_count": 51,
+  "path": [
+    "v3",
+    "keywords_data",
+    "google_ads",
+    "search_volume",
+    "live"
+  ],
+  "data": {
+    "api": "keywords_data",
+    "function": "search_volume",
+    "se": "google_ads",
+    "keywords": [
+      "Buy tiles online UK",
+      "Wall and floor tiles UK",
+      "Porcelain tiles UK",
+      "Bathroom tiles UK",
+      "Kitchen tiles UK",
+      "Outdoor tiles UK",
+      "Cheap tiles UK",
+      "Luxury tiles UK",
+      "Porcelain floor tiles",
+      "Large format wall tiles",
+      "Wood effect tiles",
+      "Marble effect tiles",
+      "Mosaic tiles for bathrooms",
+      "Ceramic wall tiles",
+      "Anti-slip outdoor tiles",
+      "Garden patio tiles",
+      "Wet room floor tiles",
+      "Victorian pattern tiles",
+      "Encaustic style tiles",
+      "20mm outdoor porcelain tiles",
+      "Rectified porcelain tiles",
+      "Gloss or matt tiles",
+      "Textured finish tiles",
+      "Anti-slip R11/R12 tiles",
+      "Frost-resistant outdoor tiles",
+      "Grout and adhesive supplies UK",
+      "Tile trims and spacers",
+      "Tile installation services UK",
+      "Designer tiles UK",
+      "Patterned tiles for interiors",
+      "Natural stone tiles",
+      "Handmade tiles UK",
+      "Contemporary wall tiles",
+      "Premium tile collections",
+      "Rustic ceramic tiles",
+      "Stone effect tiles for homes",
+      "Luxury bathroom tile ideas",
+      "Wood effect tiles grey",
+      "Herringbone tiles",
+      "Hexagon wall tiles",
+      "Subway tiles for kitchens",
+      "Terrazzo effect tiles",
+      "Slate effect outdoor tiles",
+      "Concrete effect porcelain tiles",
+      "Oak wood effect tiles",
+      "Carrara marble tiles",
+      "Tile shop near me UK",
+      "Tilers in Manchester UK",
+      "Tiles delivered across the UK",
+      "Free tile samples UK",
+      "Fast tile delivery UK"
+    ],
+    "location_code": 2826,
+    "language_code": "en",
+    "sort_by": "relevance",
+    "date_from": "2025-01-01",
+    "date_to": "2025-11-30"
+  },
+  "result": [
+    {
+      "keyword": "Buy tiles online UK",
+      "spell": "buy tiles online uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 90,
+      "search_volume": 20,
+      "low_top_of_page_bid": 1.07,
+      "high_top_of_page_bid": 3.3,
+      "cpc": 2.57,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 20
+        }
+      ]
+    },
+    {
+      "keyword": "Wall and floor tiles UK",
+      "spell": "wall and floor tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 10,
+      "low_top_of_page_bid": 0.57,
+      "high_top_of_page_bid": 1.92,
+      "cpc": 0.83,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "keyword": "Porcelain tiles UK",
+      "spell": "porcelain tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 140,
+      "low_top_of_page_bid": 0.68,
+      "high_top_of_page_bid": 2.9,
+      "cpc": 2.27,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 170
+        }
+      ]
+    },
+    {
+      "keyword": "Bathroom tiles UK",
+      "spell": "bathroom tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 2400,
+      "low_top_of_page_bid": 0.53,
+      "high_top_of_page_bid": 2.13,
+      "cpc": 2,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 2400
+        }
+      ]
+    },
+    {
+      "keyword": "Kitchen tiles UK",
+      "spell": "kitchen tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 390,
+      "low_top_of_page_bid": 0.43,
+      "high_top_of_page_bid": 2.01,
+      "cpc": 1.17,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 480
+        }
+      ]
+    },
+    {
+      "keyword": "Outdoor tiles UK",
+      "spell": "outdoor tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 1000,
+      "low_top_of_page_bid": 0.48,
+      "high_top_of_page_bid": 1.66,
+      "cpc": 1.38,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 720
+        }
+      ]
+    },
+    {
+      "keyword": "Cheap tiles UK",
+      "spell": "cheap tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 390,
+      "low_top_of_page_bid": 0.56,
+      "high_top_of_page_bid": 2.04,
+      "cpc": 1.78,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 390
+        }
+      ]
+    },
+    {
+      "keyword": "Luxury tiles UK",
+      "spell": "luxury tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 320,
+      "low_top_of_page_bid": 1.07,
+      "high_top_of_page_bid": 4.43,
+      "cpc": 2.18,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 260
+        }
+      ]
+    },
+    {
+      "keyword": "Porcelain floor tiles",
+      "spell": "porcelain floor tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 2900,
+      "low_top_of_page_bid": 0.76,
+      "high_top_of_page_bid": 2,
+      "cpc": 1.95,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "Large format wall tiles",
+      "spell": "large format wall tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 110,
+      "low_top_of_page_bid": 0.57,
+      "high_top_of_page_bid": 1.78,
+      "cpc": 1.46,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 140
+        }
+      ]
+    },
+    {
+      "keyword": "Wood effect tiles",
+      "spell": "wood effect tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 9900,
+      "low_top_of_page_bid": 0.74,
+      "high_top_of_page_bid": 2.29,
+      "cpc": 2,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 9900
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 12100
+        }
+      ]
+    },
+    {
+      "keyword": "Marble effect tiles",
+      "spell": "marble effect tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 2400,
+      "low_top_of_page_bid": 0.78,
+      "high_top_of_page_bid": 2.49,
+      "cpc": 1.84,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 2900
+        }
+      ]
+    },
+    {
+      "keyword": "Mosaic tiles for bathrooms",
+      "spell": "mosaic tiles for bathrooms",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 2900,
+      "low_top_of_page_bid": 0.48,
+      "high_top_of_page_bid": 1.62,
+      "cpc": 1.13,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 2400
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 2900
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 2400
+        }
+      ]
+    },
+    {
+      "keyword": "Ceramic wall tiles",
+      "spell": "ceramic wall tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 880,
+      "low_top_of_page_bid": 0.4,
+      "high_top_of_page_bid": 1.5,
+      "cpc": 1.17,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "keyword": "Anti-slip outdoor tiles",
+      "spell": "anti-slip outdoor tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 170,
+      "low_top_of_page_bid": 0.61,
+      "high_top_of_page_bid": 1.69,
+      "cpc": 1.36,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 140
+        }
+      ]
+    },
+    {
+      "keyword": "Garden patio tiles",
+      "spell": "garden patio tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 480,
+      "low_top_of_page_bid": 0.51,
+      "high_top_of_page_bid": 1.58,
+      "cpc": 1.59,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 260
+        }
+      ]
+    },
+    {
+      "keyword": "Wet room floor tiles",
+      "spell": "wet room floor tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 720,
+      "low_top_of_page_bid": 0.52,
+      "high_top_of_page_bid": 1.91,
+      "cpc": 1.76,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 720
+        }
+      ]
+    },
+    {
+      "keyword": "Victorian pattern tiles",
+      "spell": "victorian pattern tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 320,
+      "low_top_of_page_bid": 0.57,
+      "high_top_of_page_bid": 1.86,
+      "cpc": 1.56,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 320
+        }
+      ]
+    },
+    {
+      "keyword": "Encaustic style tiles",
+      "spell": "encaustic style tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 80,
+      "search_volume": 10,
+      "low_top_of_page_bid": 0.44,
+      "high_top_of_page_bid": 1.05,
+      "cpc": 1.3,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "keyword": "20mm outdoor porcelain tiles",
+      "spell": null,
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 70,
+      "low_top_of_page_bid": 1.01,
+      "high_top_of_page_bid": 3.67,
+      "cpc": 3.18,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 50
+        }
+      ]
+    },
+    {
+      "keyword": "Rectified porcelain tiles",
+      "spell": "rectified porcelain tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 260,
+      "low_top_of_page_bid": 0.49,
+      "high_top_of_page_bid": 2,
+      "cpc": 1.57,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 320
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 140
+        }
+      ]
+    },
+    {
+      "keyword": "Gloss or matt tiles",
+      "spell": "gloss or matt tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 30,
+      "low_top_of_page_bid": 0.17,
+      "high_top_of_page_bid": 2,
+      "cpc": 0.57,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "keyword": "Textured finish tiles",
+      "spell": "textured finish tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Anti-slip R11/R12 tiles",
+      "spell": "anti-slip r11/r12 tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Frost-resistant outdoor tiles",
+      "spell": "frost-resistant outdoor tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 50,
+      "low_top_of_page_bid": 0.44,
+      "high_top_of_page_bid": 0.86,
+      "cpc": 0.85,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "keyword": "Grout and adhesive supplies UK",
+      "spell": "grout and adhesive supplies uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Tile trims and spacers",
+      "spell": "tile trims and spacers",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Tile installation services UK",
+      "spell": "tile installation services uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Designer tiles UK",
+      "spell": "designer tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 30,
+      "low_top_of_page_bid": 0.72,
+      "high_top_of_page_bid": 2.96,
+      "cpc": 3.32,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 30
+        }
+      ]
+    },
+    {
+      "keyword": "Patterned tiles for interiors",
+      "spell": "patterned tiles for interiors",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Natural stone tiles",
+      "spell": "natural stone tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 1600,
+      "low_top_of_page_bid": 0.91,
+      "high_top_of_page_bid": 2.44,
+      "cpc": 1.86,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 1300
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 1600
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 1900
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 1900
+        }
+      ]
+    },
+    {
+      "keyword": "Handmade tiles UK",
+      "spell": "handmade tiles uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 140,
+      "low_top_of_page_bid": 0.41,
+      "high_top_of_page_bid": 1.11,
+      "cpc": 0.84,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "keyword": "Contemporary wall tiles",
+      "spell": "contemporary wall tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 90,
+      "low_top_of_page_bid": 0.43,
+      "high_top_of_page_bid": 1.01,
+      "cpc": 0.66,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 140
+        }
+      ]
+    },
+    {
+      "keyword": "Premium tile collections",
+      "spell": "premium tile collections",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Rustic ceramic tiles",
+      "spell": "rustic ceramic tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 10,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": 2.65,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "keyword": "Stone effect tiles for homes",
+      "spell": "stone effect tiles for homes",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Luxury bathroom tile ideas",
+      "spell": "luxury bathroom tile ideas",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 30,
+      "low_top_of_page_bid": 0.31,
+      "high_top_of_page_bid": 2.01,
+      "cpc": 0.68,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 10
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 40
+        }
+      ]
+    },
+    {
+      "keyword": "Wood effect tiles grey",
+      "spell": "wood effect tiles grey",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 210,
+      "low_top_of_page_bid": 0.69,
+      "high_top_of_page_bid": 2.38,
+      "cpc": 1.66,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 170
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 210
+        }
+      ]
+    },
+    {
+      "keyword": "Herringbone tiles",
+      "spell": "herringbone tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 5400,
+      "low_top_of_page_bid": 0.68,
+      "high_top_of_page_bid": 2.78,
+      "cpc": 1.12,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 4400
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 5400
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 5400
+        }
+      ]
+    },
+    {
+      "keyword": "Hexagon wall tiles",
+      "spell": "hexagon wall tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 590,
+      "low_top_of_page_bid": 0.66,
+      "high_top_of_page_bid": 2.56,
+      "cpc": 1.39,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 720
+        }
+      ]
+    },
+    {
+      "keyword": "Subway tiles for kitchens",
+      "spell": "subway tiles for kitchens",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 880,
+      "low_top_of_page_bid": 0.4,
+      "high_top_of_page_bid": 1.39,
+      "cpc": 0.89,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 720
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 880
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 1000
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 1000
+        }
+      ]
+    },
+    {
+      "keyword": "Terrazzo effect tiles",
+      "spell": "terrazzo effect tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 260,
+      "low_top_of_page_bid": 1.06,
+      "high_top_of_page_bid": 3.67,
+      "cpc": 2.37,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 210
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 260
+        }
+      ]
+    },
+    {
+      "keyword": "Slate effect outdoor tiles",
+      "spell": "slate effect outdoor tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 30,
+      "low_top_of_page_bid": 0.73,
+      "high_top_of_page_bid": 1.7,
+      "cpc": 3.15,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 20
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 10
+        }
+      ]
+    },
+    {
+      "keyword": "Concrete effect porcelain tiles",
+      "spell": "concrete effect porcelain tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 90,
+      "low_top_of_page_bid": 1.25,
+      "high_top_of_page_bid": 3.24,
+      "cpc": 2.94,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "keyword": "Oak wood effect tiles",
+      "spell": "oak wood effect tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 50,
+      "low_top_of_page_bid": 0.96,
+      "high_top_of_page_bid": 3.02,
+      "cpc": 3.17,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 70
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 50
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 30
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 40
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 70
+        }
+      ]
+    },
+    {
+      "keyword": "Carrara marble tiles",
+      "spell": "carrara marble tiles",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 480,
+      "low_top_of_page_bid": 1.12,
+      "high_top_of_page_bid": 4.33,
+      "cpc": 3,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 390
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 480
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 590
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 590
+        }
+      ]
+    },
+    {
+      "keyword": "Tile shop near me UK",
+      "spell": "tile shop near me uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Tilers in Manchester UK",
+      "spell": "tilers in manchester uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Tiles delivered across the UK",
+      "spell": "tiles delivered across the uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    },
+    {
+      "keyword": "Free tile samples UK",
+      "spell": "free tile samples uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": "HIGH",
+      "competition_index": 100,
+      "search_volume": 110,
+      "low_top_of_page_bid": 3.58,
+      "high_top_of_page_bid": 10.1,
+      "cpc": 10.71,
+      "monthly_searches": [
+        {
+          "year": 2025,
+          "month": 10,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "search_volume": 90
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "search_volume": 260
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "search_volume": 110
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "search_volume": 140
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "search_volume": 110
+        }
+      ]
+    },
+    {
+      "keyword": "Fast tile delivery UK",
+      "spell": "fast tile delivery uk",
+      "location_code": 2826,
+      "language_code": "en",
+      "search_partners": false,
+      "competition": null,
+      "competition_index": null,
+      "search_volume": null,
+      "low_top_of_page_bid": null,
+      "high_top_of_page_bid": null,
+      "cpc": null,
+      "monthly_searches": null
+    }
+  ]
+}
