@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Keyword Rank Checker (Standalone)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container py-4">
+    <h2 class="mb-4">Live Keyword SERP Checker</h2>
+
+    <!-- Keyword Search -->
+    <form id="keywordSearchForm" class="d-flex gap-2 mb-3">
+        <input type="text" id="keywordInput" class="form-control"
+               placeholder="enter keyword e.g. tile plan" required>
+        <button class="btn btn-primary" type="submit">Check</button>
+    </form>
+
+    <div id="keywordSearchStatus" class="small text-muted mb-3"></div>
+
+    <!-- Summary Results Table -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h6 class="mb-3">Summary</h6>
+            <div class="table-responsive">
+                <table class="table table-sm align-middle mb-0" id="summaryTable">
+                    <thead>
+                    <tr>
+                        <th>Keyword</th>
+                        <th>Our Rank</th>
+                        <th>Competitor</th>
+                        <th>Competitor Rank</th>
+                        <th>Opportunity</th>
+                        <th>Priority</th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Raw SERP Items Table -->
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <h6 class="mb-3">Raw SERP items (debug)</h6>
+            <div class="table-responsive">
+                <table class="table table-sm align-middle mb-0" id="serpTable">
+                    <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Type</th>
+                        <th>Rank</th>
+                        <th>Domain</th>
+                        <th>URL</th>
+                    </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+            <small class="text-muted">This shows exactly what DataForSEO returned for this keyword.</small>
+        </div>
+    </div>
+
+    <!-- Raw JSON viewer -->
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h6 class="mb-2">Raw response JSON (debug)</h6>
+            <pre id="rawResponseBox" class="small bg-dark text-light p-2" style="max-height: 250px; overflow:auto;"></pre>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ===== CONFIG =====
+    const OUR_DOMAIN_SUBSTRING = "tileplan.com";   // we'll look for this in domain OR url
+    const COMPETITOR_SUBSTRINGS = [
+        "toppstiles.co.uk",
+        "stonetilecompany.co.uk",
+        "tileplanner.com"
+    ];
+
+    // ===== HELPERS =====
+    function priorityBadge(level) {
+        switch (level) {
+            case "high":
+                return `<span class="badge bg-danger">High</span>`;
+            case "medium":
+                return `<span class="badge bg-warning text-dark">Medium</span>`;
+            default:
+                return `<span class="badge bg-success">Low</span>`;
+        }
+    }
+
+    function extractItems(raw) {
+        if (Array.isArray(raw)) {
+            if (Array.isArray(raw[0]?.items)) return raw[0].items;
+            if (Array.isArray(raw[0]?.result?.[0]?.items)) return raw[0].result[0].items;
+        } else if (raw && typeof raw === "object") {
+            if (Array.isArray(raw.items)) return raw.items;
+            if (Array.isArray(raw.result?.[0]?.items)) return raw.result[0].items;
+        }
+        return [];
+    }
+
+    function findSubstringMatch(str, substrings) {
+        if (!str) return null;
+        const lower = str.toLowerCase();
+        for (const sub of substrings) {
+            if (!sub) continue;
+            if (lower.includes(sub.toLowerCase())) return sub;
+        }
+        return null;
+    }
+
+    // ===== MAIN ANALYSIS =====
+    async function analyseKeyword(keyword) {
+        const statusEl = document.getElementById("keywordSearchStatus");
+        const rawBox = document.getElementById("rawResponseBox");
+
+        statusEl.textContent = "Checking SERP...";
+        statusEl.className = "small text-muted";
+
+        const res = await fetch("api/serp_keyword.php", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ keyword })
+        });
+
+        const text = await res.text();
+        rawBox.textContent = text;
+
+        if (!res.ok) {
+            throw new Error("HTTP " + res.status + " - " + text.slice(0, 200));
+        }
+
+        let raw;
+        try {
+            raw = JSON.parse(text);
+        } catch (e) {
+            console.error("JSON parse error:", e);
+            throw new Error("Response was not valid JSON. See raw JSON box below.");
+        }
+
+        const items = extractItems(raw);
+        console.log("Extracted SERP items:", items);
+
+        // Populate raw SERP table for debug
+        const serpTableBody = document.querySelector("#serpTable tbody");
+        serpTableBody.innerHTML = "";
+        items.forEach((it, idx) => {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+            <td>${idx + 1}</td>
+            <td>${it.type || "-"}</td>
+            <td>${it.rank_group ?? it.rank_absolute ?? "-"}</td>
+            <td>${it.domain || "-"}</td>
+            <td><a href="${it.url || "#"}" target="_blank">${it.url || "-"}</a></td>
+        `;
+            serpTableBody.appendChild(tr);
+        });
+
+        if (!items.length) {
+            return {
+                keyword,
+                ourRank: null,
+                competitorDomain: null,
+                competitorRank: null,
+                opportunity: "No organic items returned or unexpected response format.",
+                priority: "low"
+            };
+        }
+
+        let ourRank = null;
+        let competitorRank = null;
+        let competitorDomain = null;
+
+        for (const it of items) {
+            if (!it || it.type !== "organic") continue;
+
+            const rank = it.rank_group ?? it.rank_absolute ?? null;
+            if (rank == null) continue;
+
+            const domain = it.domain || "";
+            const url = it.url || "";
+
+            // Check for our domain by SUBSTRING in domain or url
+            const isOurResult =
+                (domain && domain.toLowerCase().includes(OUR_DOMAIN_SUBSTRING.toLowerCase())) ||
+                (url && url.toLowerCase().includes(OUR_DOMAIN_SUBSTRING.toLowerCase()));
+
+            if (isOurResult) {
+                if (ourRank === null || rank < ourRank) {
+                    ourRank = rank;
+                }
+            }
+
+            // Check competitors by substring
+            const compHit = findSubstringMatch(domain, COMPETITOR_SUBSTRINGS) ||
+                findSubstringMatch(url, COMPETITOR_SUBSTRINGS);
+
+            if (compHit) {
+                if (competitorRank === null || rank < competitorRank) {
+                    competitorRank = rank;
+                    competitorDomain = domain || url || compHit;
+                }
+            }
+        }
+
+        let opportunity = "";
+        let priority = "low";
+
+        if (ourRank === null && competitorRank !== null) {
+            opportunity = "Competitor ranks but we don't.";
+            priority = "high";
+        } else if (ourRank !== null && competitorRank !== null) {
+            const diff = ourRank - competitorRank;
+            if (diff >= 7) {
+                opportunity = "Competitor significantly outranks us.";
+                priority = "high";
+            } else if (diff >= 3) {
+                opportunity = "Competitor outranks us; within reach.";
+                priority = "medium";
+            } else {
+                opportunity = "We outrank or match competitor.";
+                priority = "low";
+            }
+        } else if (ourRank !== null && competitorRank === null) {
+            opportunity = "We lead this keyword; defend it.";
+        } else {
+            opportunity = "No tracked domains ranked.";
+        }
+
+        return {
+            keyword,
+            ourRank,
+            competitorDomain,
+            competitorRank,
+            opportunity,
+            priority
+        };
+    }
+
+    // ===== UI BINDING =====
+    document.getElementById("keywordSearchForm").addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const keyword = document.getElementById("keywordInput").value.trim();
+        const statusEl = document.getElementById("keywordSearchStatus");
+        const summaryBody = document.querySelector("#summaryTable tbody");
+
+        if (!keyword) return;
+
+        try {
+            const result = await analyseKeyword(keyword);
+
+            const row = document.createElement("tr");
+            row.innerHTML = `
+            <td>${result.keyword}</td>
+            <td>${result.ourRank ?? "-"}</td>
+            <td>${result.competitorDomain ?? "-"}</td>
+            <td>${result.competitorRank ?? "-"}</td>
+            <td>${result.opportunity}</td>
+            <td>${priorityBadge(result.priority)}</td>
+        `;
+            summaryBody.prepend(row);
+
+            statusEl.textContent = "Done.";
+            statusEl.className = "small text-muted";
+        } catch (err) {
+            console.error(err);
+            statusEl.textContent = "Error: " + err.message;
+            statusEl.className = "small text-danger";
+        }
+    });
+</script>
+
+</body>
+</html>
