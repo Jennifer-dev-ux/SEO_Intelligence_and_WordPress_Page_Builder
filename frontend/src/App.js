@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import OpportunityFinder from "./components/OpportunityFinder";
 import PageBuilder from "./components/PageBuilder";
+import SeoDashboard from "./Pages/SeoDashboard";   // ✅ make sure this path is correct
 import "./App.css";
 
 function App() {
@@ -25,7 +26,6 @@ function App() {
         </div>
 
         <div className="header-right">
-          {/* Hero-style image – can be swapped for a real TilePlan asset later */}
           <div className="header-image-wrapper">
             <img
               src="https://via.placeholder.com/360x130.png?text=Industrial+%26+Commercial+Flooring"
@@ -34,7 +34,6 @@ function App() {
             />
           </div>
 
-          {/* Dark / light mode toggle */}
           <button
             type="button"
             className="mode-toggle"
@@ -45,7 +44,9 @@ function App() {
         </div>
       </header>
 
-      {/* Small intro strip to make it feel more like a real tool */}
+      {/* 🚫 remove any old standalone “SEO Competitor Dashboard” button here */}
+
+      {/* Step strip */}
       <section className="intro-strip">
         <div className="intro-pill">
           <span className="intro-emoji">1️⃣</span>
@@ -64,41 +65,50 @@ function App() {
       <main className="app-main">
         <nav className="tab-nav">
           <button
-            className={`tab-btn ${
-              activeTab === "finder" ? "tab-btn-active" : ""
-            }`}
+            className={`tab-btn ${activeTab === "finder" ? "tab-btn-active" : ""}`}
             onClick={() => setActiveTab("finder")}
           >
             🔍 SEO Opportunity Finder
           </button>
           <button
-            className={`tab-btn ${
-              activeTab === "builder" ? "tab-btn-active" : ""
-            }`}
+            className={`tab-btn ${activeTab === "builder" ? "tab-btn-active" : ""}`}
             onClick={() => setActiveTab("builder")}
           >
             📝 SEO Page Builder
           </button>
+          <button
+            className={`tab-btn ${activeTab === "dashboard" ? "tab-btn-active" : ""}`}
+            onClick={() => setActiveTab("dashboard")}
+          >
+            📊 SEO Competitor Dashboard
+          </button>
         </nav>
 
         <section className="tab-content">
-  <div
-    className={`tab-panel ${
-      activeTab === "finder" ? "tab-panel-active" : "tab-panel-hidden"
-    }`}
-  >
-    <OpportunityFinder />
-  </div>
+          <div
+            className={`tab-panel ${
+              activeTab === "finder" ? "tab-panel-active" : "tab-panel-hidden"
+            }`}
+          >
+            <OpportunityFinder />
+          </div>
 
-  <div
-    className={`tab-panel ${
-      activeTab === "builder" ? "tab-panel-active" : "tab-panel-hidden"
-    }`}
-  >
-    <PageBuilder />
-  </div>
-</section>
+          <div
+            className={`tab-panel ${
+              activeTab === "builder" ? "tab-panel-active" : "tab-panel-hidden"
+            }`}
+          >
+            <PageBuilder />
+          </div>
 
+          <div
+            className={`tab-panel ${
+              activeTab === "dashboard" ? "tab-panel-active" : "tab-panel-hidden"
+            }`}
+          >
+            <SeoDashboard />
+          </div>
+        </section>
       </main>
 
       <footer className="app-footer">

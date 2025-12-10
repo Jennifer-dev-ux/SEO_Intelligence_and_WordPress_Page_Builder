@@ -562,4 +562,390 @@ input:focus {
 .app-root.dark .intro-pill {
   background: #020617;
 }
+/* ===== SEO Dashboard layout ===== */
+
+.dashboard-root {
+  max-width: 1100px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.dashboard-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+}
+
+.dashboard-filters .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.dashboard-filters select {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  background: #fdfdff;
+}
+
+.app-root.dark .dashboard-filters select {
+  background: #020617;
+  color: var(--text-main);
+}
+
+/* KPI cards row */
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.kpi-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+  font-size: 0.9rem;
+}
+
+.kpi-label {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.35rem;
+}
+
+.kpi-value {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.kpi-subtext {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Charts row */
+
+.charts-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.chart-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.1rem 1.3rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+}
+
+.chart-title {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+/* Keyword tables */
+
+.keyword-section {
+  margin-top: 1.5rem;
+}
+
+.keyword-section h3 {
+  margin-bottom: 0.6rem;
+}
+/* ===== SEO Competitor Dashboard ===== */
+
+.dashboard-root {
+  max-width: 1100px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Filters row */
+
+.dashboard-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+}
+
+.filter-group label {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.dashboard-filters select {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  padding: 0.4rem 0.6rem;
+  font-size: 0.9rem;
+  background: #fdfdff;
+}
+
+.app-root.dark .dashboard-filters select {
+  background: #020617;
+  color: var(--text-main);
+}
+
+/* Segmented device control */
+
+.segmented-control {
+  display: inline-flex;
+  padding: 0.2rem;
+  border-radius: 999px;
+  background: #f3f4ff;
+  border: 1px solid var(--border-subtle);
+}
+
+.segmented-control button {
+  border: none;
+  background: transparent;
+  padding: 0.25rem 0.7rem;
+  font-size: 0.85rem;
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--text-muted);
+}
+
+.segmented-control button.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+/* Top metric cards */
+
+.dashboard-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.metric-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-md);
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+  font-size: 0.9rem;
+}
+
+.metric-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.3rem;
+}
+
+.metric-value {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.metric-subtext {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.text-positive {
+  color: #16a34a;
+  font-weight: 500;
+}
+
+/* Charts row */
+
+.dashboard-charts {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.chart-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.1rem 1.3rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.chart-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.chart-subtitle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.chart-body {
+  height: 260px;
+}
+
+/* Tables */
+
+.table-card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  padding: 1rem 1.1rem 1.3rem;
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-soft);
+  margin-bottom: 1.5rem;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.table-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.table-header-actions {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.table-header-actions select {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+.table-search {
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+  padding: 0.35rem 0.6rem;
+  font-size: 0.85rem;
+  min-width: 220px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  border: 1px solid var(--border-subtle);
+  padding: 0.5rem 0.6rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-wrapper th {
+  background: var(--bg-soft);
+  font-weight: 600;
+}
+
+.table-scroll {
+  max-height: 260px;
+  overflow-y: auto;
+}
+
+.table-caption {
+  margin-top: 0.6rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Priority badges */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.badge-high {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.badge-medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.badge-low {
+  background: #dcfce7;
+  color: #166534;
+}
+
+/* Mobile tweaks for dashboard */
+
+@media (max-width: 900px) {
+  .dashboard-charts {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .dashboard-root {
+    margin-top: 0.6rem;
+  }
+
+  .table-search {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .table-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .table-header-actions {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
 
